@@ -1,0 +1,21 @@
+{
+  "name": "risky-shell-guard",
+  "displayName": "Risky Shell Guard",
+  "version": "1.0.0",
+  "description": "A PreToolUse hook that stops Claude Code from running destructive shell commands: rm -rf outside the project, force pushes, git reset --hard, curl | sh, sudo and more.",
+  "author": {
+    "name": "Keelwork"
+  },
+  "homepage": "https://github.com/keelwork-dev/claude-code-guardrails-free",
+  "repository": "https://github.com/keelwork-dev/claude-code-guardrails-free",
+  "license": "MIT",
+  "keywords": [
+    "hooks",
+    "safety",
+    "guardrails",
+    "shell"
+  ],
+  "network": {
+    "hosts": []
+  }
+}

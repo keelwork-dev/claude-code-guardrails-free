@@ -1,0 +1,13 @@
+{
+  "name": "keelwork-guardrails",
+  "description": "Free Claude Code safety hook from Keelwork: blocks destructive shell commands before they run.",
+  "owner": {
+    "name": "Keelwork"
+  },
+  "plugins": [
+    {
+      "name": "risky-shell-guard",
+      "source": "./"
+    }
+  ]
+}
